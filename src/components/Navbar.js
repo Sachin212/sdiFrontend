@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Menu, Dropdown }from 'semantic-ui-react'
-import sdiLogo from '../svgs/sdiLogo.svg'
 import sdiHomeLogo from '../svgs/sdiHomeLogo.svg'
 
 function Navbar(){
