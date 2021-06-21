@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Menu, Dropdown }from 'semantic-ui-react'
+import sdiHomeLogo from '../svgs/sdiHomeLogo.svg'
 
 function Navbar(){
     var username = JSON.parse(localStorage.getItem('userdata'));
@@ -33,8 +34,7 @@ function Navbar(){
                 <div className="sdi_bar3"></div>
             </div>
 
-            <Link to="/" className="sdi_navbar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/129px-Ford_logo_flat.svg.png" alt="img"/></Link>
-            <Link to="/" className="sdi_name">SDI Club</Link>
+            <Link to="/" className="sdi_navbar"><img src={sdiHomeLogo} alt="img"/></Link>
             {username != null && <NavLink to="/logout" activeClassName="is-active" className="sdi_navbar1">Logout</NavLink> }
             {/* {username == null && <NavLink to="/login" activeClassName="is-active" className="sdi_navbar1" >Login</NavLink> } */}
             <NavLink to="/blogs" id="sdi_nav_last" activeClassName="is-active" className="sdi_navbar1">Blogs</NavLink>
