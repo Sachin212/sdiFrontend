@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css'
 
-import './styles/styles.css'
+import './styles/styles.scss'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import About from './pages/About'

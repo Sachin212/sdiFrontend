@@ -1,0 +1,35 @@
+.home_svg1{
+position: absolute;
+right: 0px;
+width: 45%;
+z-index: -1;
+}
+
+.sdi_home_ div{
+    margin-top: 300px;
+    margin-bottom: 30px;
+    font-size: 150px;
+}
+
+.sdi_home_{
+    margin-left: 180px;
+    text-align: left;
+}
+
+.sdi_image{
+    width:50%;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+}
+
+@media (max-width:768px){
+    .sdi_home_ div{
+        margin-top: 200px;
+        margin-bottom: 10px;
+        font-size: 96px;
+    }
+    .sdi_home_{
+        margin-left: 80px;
+    }
+}
