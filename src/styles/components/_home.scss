@@ -25,10 +25,11 @@
 }
 
 .sdi_image{
-    width:50%;
+    width:45%;
     position: absolute;
     right: 0px;
     top: 250px;
+    z-index: -1;
 }
 
 @media (max-width:768px){

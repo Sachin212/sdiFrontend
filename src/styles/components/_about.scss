@@ -10,6 +10,15 @@
     margin-bottom: 10px;
 }
 
+.sdi_image_about{
+    width:40%;
+    position: absolute;
+    right: 1%;
+    top: 250px;
+    z-index: -1;
+
+}
+
 @media (max-width:768px){
     #sdi_about{
         position: absolute;
